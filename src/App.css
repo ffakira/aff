@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 95vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+a > i {
+  margin-right: 20px;
+  margin-top: 30px;
+  text-decoration: none;
+  color: white;
+}
+
+a {
+  font-size: 12px;
+}
+
+a:hover > i {
+  border: 1px solid white;
+  border-radius: 3px;
+  background: white;
+  color: black;
+  padding: 5px;
+  transition: 0.6s ease;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+  a > i {
+    border: 1px solid white;
+    border-radius: 3px;
+    background: rgba(255, 255, 255, 1);
+    color: black;
+    padding: 5px;
+  }
+}
